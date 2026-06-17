@@ -20,7 +20,7 @@ O projeto combina:
 - **Python + Pandas** para EDA  
 - **Power BI** para visualização executiva  
 - **GitHub** para versionamento  
-- **PPT** para apresentação final  
+- **PDF** para apresentação final  
 
 ---
 
