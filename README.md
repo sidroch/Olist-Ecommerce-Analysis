@@ -37,15 +37,15 @@ README.md             # Documentação do projeto
 Bases de Dados Originais (Olist)
 As bases originais foram obtidas do repositório público da Olist e incluem:
 
-	customers.csv
-	geolocation.csv
-	order_items.csv
-	order_payments.csv
-	order_reviews.csv
-	orders.csv
-	products.csv
-	sellers.csv
- product_category_name_translation.csv
+1.	customers.csv
+2.	geolocation.csv
+3.	order_items.csv
+4.	order_payments.csv
+5.	order_reviews.csv
+6.	orders.csv
+7.	products.csv
+8.	sellers.csv
+9.	product_category_name_translation.csv
 
 Esses arquivos são utilizados para análises de:
 
@@ -61,11 +61,10 @@ categorias de produto
 
 relacionamento entre tabelas
 
-📥 Dados Extraídos do Relatório Executivo (PPT)
-Além das bases originais, foram extraídos do PPT os principais indicadores apresentados nos gráficos e convertidos em CSV para uso no notebook.
-
-📁 Arquivos Gerados
-Arquivo	Descrição
+ Dados Extraídos do Relatório Executivo 
+Além das bases originais, foram extraídos os principais indicadores apresentados nos gráficos e convertidos em CSV para uso no notebook.
+ Arquivos Gerados
+Arquivo		Descrição
 receita_estado.csv	Insights de receita por estado (SC, RJ, MG, RS, PR)
 categorias.csv	Destaques de categorias: maior volume, maior receita e alto valor agregado
 logistica.csv	Percentual de atrasos logísticos por estado
@@ -102,12 +101,12 @@ Relógios → alto valor agregado
 Percentual de atrasos:
 
 Estado	% Atrasos
-RJ	12%
-SC	8%
-RS	6%
-MG	4%
-SP	4%
-PR	4%
+1) RJ	12%
+2) SC	8%
+3) RS	6%
+4) MG	4%
+5) SP	4%
+6) PR	4%
 
 ⚠️ Riscos & Oportunidades
 Risco: RJ com 12% de atrasos
