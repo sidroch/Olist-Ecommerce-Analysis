@@ -48,19 +48,11 @@ As bases originais foram obtidas do repositório público da Olist e incluem:
 9.	product_category_name_translation.csv
 
 Esses arquivos são utilizados para análises de:
-
-Esses arquivos são utilizados para análises de:
-
-comportamento do consumidor
-
-logística
-
-receita
-
-categorias de produto
-
-relacionamento entre tabelas
-
+1)	comportamento do consumidor
+2)	logística
+3)	receita
+4)	categoria de produto
+5)	relacionamento entre tabelas
  Dados Extraídos do Relatório Executivo 
 Além das bases originais, foram extraídos os principais indicadores apresentados nos gráficos e convertidos em CSV para uso no notebook.
  Arquivos Gerados
@@ -101,12 +93,12 @@ Relógios → alto valor agregado
 Percentual de atrasos:
 
 Estado	% Atrasos
-1) RJ	12%
-2) SC	8%
-3) RS	6%
-4) MG	4%
-5) SP	4%
-6) PR	4%
+RJ	12%
+SC	8%
+RS	6%
+MG	4%
+SP	4%
+PR	4%
 
 ⚠️ Riscos & Oportunidades
 Risco: RJ com 12% de atrasos
