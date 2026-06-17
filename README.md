@@ -64,18 +64,17 @@ logistica.csvPercentual de atrasos logísticos por estado
 riscos_oportunidades.csvPrincipais riscos e oportunidades identificados por UF
 
 ---
-Links de acessos ao gráficos
-📥 Como carregar os dados no notebook
-python
-import pandas as pd
+
 ## 📓 Notebooks
 df_receita = pd.read_csv("../data/receita_estado.csv")
 df_categorias = pd.read_csv("../data/categorias.csv")
 df_logistica = pd.read_csv("../data/logistica.csv")
 df_riscos = pd.read_csv("../data/riscos_oportunidades.csv")
+
 Links de acesso aos gráficos
 - 📊 [Gráficos do Relatório Executivo](notebooks/graficos_relatorio_olist.ipynb)
 - 🔍 [Análise Exploratória de Dados (EDA)](notebooks/01_eda_olist.ipynb)
+
 ---
 
 🔍 Principais Insights
