@@ -66,10 +66,10 @@ riscos_oportunidades.csvPrincipais riscos e oportunidades identificados por U
 ---
 
 ## 📓 Notebooks
-df_receita = pd.read_csv("../data/receita_estado.csv")
-df_categorias = pd.read_csv("../data/categorias.csv")
-df_logistica = pd.read_csv("../data/logistica.csv")
-df_riscos = pd.read_csv("../data/riscos_oportunidades.csv")
+	df_receita = pd.read_csv("../data/receita_estado.csv")
+	df_categorias = pd.read_csv("../data/categorias.csv")
+	df_logistica = pd.read_csv("../data/logistica.csv")
+	df_riscos = pd.read_csv("../data/riscos_oportunidades.csv")
 
 Links de acesso aos gráficos
 - 📊 [Gráficos do Relatório Executivo](notebooks/graficos_relatorio_olist.ipynb)
@@ -106,10 +106,10 @@ Oportunidades: SC (premium), PR (relógios), MG/RS (expansão de base)
 ---
 👥 Equipe
 Projeto desenvolvido por:
-Adriane de Souza Lino
-Barbara Rodrigues Gusmão Rebelo
-Bruna Alessandra Belotto
-Sidnei Rocha 
+	Adriane de Souza Lino
+	Barbara Rodrigues Gusmão Rebelo
+	Bruna Alessandra Belotto
+	Sidnei Rocha 
 Pós-Tech FIAP · Tech Challenge 2026
 
 📄 Licença
