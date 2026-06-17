@@ -38,23 +38,15 @@ Olist-Ecommerce-Analysis/
 Bases de Dados Originais (Olist)
 As bases originais foram obtidas do repositório público da Olist e incluem:
 
-customers.csv
-
-geolocation.csv
-
-order_items.csv
-
-order_payments.csv
-
-order_reviews.csv
-
-orders.csv
-
-products.csv
-
-sellers.csv
-
-product_category_name_translation.csv
+	customers.csv
+	geolocation.csv
+	order_items.csv
+	order_payments.csv
+	order_reviews.csv
+	orders.csv
+	products.csv
+	sellers.csv
+ product_category_name_translation.csv
 
 Esses arquivos são utilizados para análises de:
 
