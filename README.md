@@ -11,15 +11,17 @@ Este repositório contém a análise exploratória, indicadores, gráficos e con
 
 Olist-Ecommerce-Analysis/
 
-- data/                     # Arquivos CSV utilizados na análise
-- notebooks/                # Notebooks Jupyter
-- graficos_relatorio_olist.ipynb
-- README.md                 # Documentação principal
+```
+- data/                 <br> # Arquivos CSV utilizados na análise
+- notebooks/            <br> # Notebooks Jupyter
+- gráficos/             <br> # graficos_relatorio_olist.ipynb
+- README.md             <br> # Documentação principal
+```
 
 
 ---
 
-🎯 Objetivo do Projeto
+## 🎯 Objetivo do Projeto
 
 O objetivo deste projeto é analisar o desempenho da operação de e‑commerce da Olist, identificando:
 
@@ -30,8 +32,8 @@ O objetivo deste projeto é analisar o desempenho da operação de e‑commerce 
 5) insights estratégicos para tomada de decisão
 
 ---
+## 📊 Indicadores e Gráficos Produzidos
 
-📊 Indicadores e Gráficos Produzidos
 1. Percentual de Atrasos por Estado
 - Ordenação dos estados pelo percentual de atrasos.
 - Destaque para regiões críticas e eficientes.
@@ -49,8 +51,8 @@ O objetivo deste projeto é analisar o desempenho da operação de e‑commerce 
 - Comparação direta entre o desempenho do RJ e a mediana nacional.
 
 ---
-
-🧪 Notebook Principal
+ 
+## 🧪 Notebook Principal
 O notebook com todos os gráficos revisados está disponível em:
 -  /notebooks/graficos_relatorio_olist.ipynb
 
