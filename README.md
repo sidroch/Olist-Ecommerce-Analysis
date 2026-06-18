@@ -63,6 +63,44 @@ Ele contém:
 
 ---
 
+📥 Dados Utilizados
+Os arquivos CSV utilizados estão na pasta:
+/data
+
+Arquivos:
+
+- logistica.csv
+- categorias.csv
+- receita_estado.csv
+- riscos_oportunidades.csv
+
+---
+
+🚀 Como Executar o Projeto
+- Clone o repositório
+
+- git clone https://github.com/SEU_USUARIO/Olist-Ecommerce-Analysis.git
+- pip install -r requirements.txt
+- jupyter notebook notebooks/graficos_relatorio_olist.ipynb
+
+---
+🛠️ Tecnologias Utilizadas
+- Python 3.10
+- Pandas
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+---
+
+👤 Autores
+## Grupo: 47
+- Adriane de Souza Lino – euadrianee@gmail.com  
+- Barbara Rodrigues Gusmão Rebelo – barbaragusmao906@gmail.com  
+- Bruna Alessandra Belotto – bruna.belotto@gmail.com  
+- Sidnei Rocha – sidroch@gmail.com  
+
+---
 
 📄 Licença
 
