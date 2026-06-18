@@ -1,116 +1,30 @@
-# 📦 Olist Ecommerce Analysis  
-Análise completa do comportamento de vendas, logística e receita utilizando o dataset público da Olist.  
-Projeto desenvolvido como parte do **Tech Challenge — Pós-Tech FIAP (2026)**.
-
----
-
-## 📊 Objetivo do Projeto
-
-Transformar dados operacionais da Olist em **insights estratégicos**, explorando:
-
-- comportamento de compra por estado  
-- eficiência logística  
-- desempenho por categoria  
-- receita por cliente  
-- riscos e oportunidades regionais  
-- storytelling analítico orientado por dados  
-
-O projeto combina:
-
-- **Python + Pandas** para EDA  
-- **Power BI** para visualização executiva  
-- **GitHub** para versionamento  
-- **PDF** para apresentação final  
-
----
-
-## 🧱 Estrutura do Repositório
-
-Olist-Ecommerce-Analysis/
-
-data/                 		# CSVs e datasets (originais + extraídos do PPT)
-notebooks/            	# Jupyter Notebooks (.ipynb)
-reports/              	# PDFs
-scripts/              	# Scripts auxiliares em Python
-README.md             	# Documentação do projeto
----
-Bases de Dados Originais (Olist)
-As bases originais foram obtidas do repositório público da Olist e incluem:
-1.	customers.csv
-2.	geolocation.csv
-3.	order_items.csv
-4.	order_payments.csv
-5.	order_reviews.csv
-6.	orders.csv
-7.	products.csv
-8.	sellers.csv
-9.	product_category_name_translation.csv
-
----
-Esses arquivos são utilizados para análises de:
-1)	comportamento do consumidor
-2)	logística
-3)	receita
-4)	categoria de produto
-5)	relacionamento entre tabelas
-
----
-Dados Extraídos do Relatório Executivo 
-Além das bases originais, foram extraídos os principais indicadores apresentados nos gráficos e convertidos em CSV para uso no notebook.
-Arquivos Gerados
-receita_estado.csvInsights de receita por estado (SC, RJ, MG, RS, PR)
-categorias.csvDestaques de categorias: maior volume, maior receita e alto valor agregado
-logistica.csvPercentual de atrasos logísticos por estado
-riscos_oportunidades.csvPrincipais riscos e oportunidades identificados por UF
-
----
-
-## 📓 Notebooks
-	df_receita = pd.read_csv("../data/receita_estado.csv")
-	df_categorias = pd.read_csv("../data/categorias.csv")
-	df_logistica = pd.read_csv("../data/logistica.csv")
-	df_riscos = pd.read_csv("../data/riscos_oportunidades.csv")
-
-Links de acesso aos gráficos
-- 📊 [Gráficos do Relatório Executivo](notebooks/graficos_relatorio_olist.ipynb)
-- 🔍 [Análise Exploratória de Dados (EDA)](notebooks/01_eda_olist.ipynb)
-
----
-
+📊 Tech Challenge – Análise Executiva de E commerce
+Grupo 47
+🧭 Resumo Executivo
+Este projeto analisa o desempenho do e commerce Olist nos cinco estados mais rentáveis após São Paulo: RJ, MG, RS, PR e SC. O objetivo é transformar dados operacionais em insights estratégicos para apoiar decisões sobre receita, logística, comportamento do consumidor e rentabilidade.
+🎯 Objetivo
+Identificar quais categorias de produtos impulsionam receita e crescimento nesses estados e mapear oportunidades estratégicas para aumentar vendas, retenção e competitividade.
+📂 Escopo da Análise
+•	Receita total e receita por cliente
+•	Volume e receita por categoria
+•	Eficiência logística e atrasos
+•	Avaliações de clientes (1 e 2 estrelas)
+•	Oportunidades regionais por estado
 🔍 Principais Insights
-🏆 Receita por Estado
-1)	SC lidera em receita por cliente (+1,76% vs SP)
-2)	RJ tem maior volume absoluto, mas gargalos logísticos
-3)	MG, RS, PR apresentam estabilidade e previsibilidade
----
-🛒 Categorias de Produto
-1)	Cama & Mesa → maior volume
-2)	Beleza & Saúde → maior receita
-3)	Relógios → alto valor agregado
+•	Santa Catarina tem a maior receita por cliente (+1,76% vs SP).
+•	Beleza & Saúde e Relógios & Presentes são categorias de alta monetização.
+•	RJ apresenta o maior percentual de atrasos, impactando satisfação e recompra.
+•	Estados como MG e RS têm comportamento estável entre volume e receita.
+•	PR e RJ mostram alto potencial em categorias premium.
+🚀 Oportunidades Estratégicas
+•	Reduzir atrasos logísticos, especialmente no RJ.
+•	Expandir categorias de maior rentabilidade por estado.
+•	Aumentar ticket médio com produtos complementares.
+•	Criar ações de fidelização e retenção em mercados de alto valor (ex.: SC).
+•	Monitorar KPIs continuamente e fortalecer cultura orientada por dados.
+🧩 Conclusão
+O crescimento sustentável depende da combinação entre eficiência logística, entendimento regional do consumidor e foco em categorias de alto valor. A análise evidencia como o uso estratégico de dados pode orientar decisões mais assertivas e fortalecer a competitividade do e commerce.
 
----
-🚚 Eficiência Logística
-Percentual de atrasos:
-1)	RJ	12%
-2)	SC	8%
-3)	RS	6%
-4)	MG	4%
-5)	SP	4%
-6)	PR	4%
-
----
-⚠️ Riscos & Oportunidades
-Risco: RJ com 12% de atrasos
-Oportunidades: SC (premium), PR (relógios), MG/RS (expansão de base)
-
----
-👥 Equipe
-Projeto desenvolvido por:
-	Adriane de Souza Lino
-	Barbara Rodrigues Gusmão Rebelo
-	Bruna Alessandra Belotto
-	Sidnei Rocha 
-Pós-Tech FIAP · Tech Challenge 2026
 
 📄 Licença
 Este projeto é de uso acadêmico e não possui vínculo oficial com a Olist.
