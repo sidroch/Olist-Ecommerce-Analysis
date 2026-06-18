@@ -74,14 +74,6 @@ Arquivos:
 - receita_estado.csv
 - riscos_oportunidades.csv
 
----
-
-🚀 Como Executar o Projeto
-- Clone o repositório
-
-- git clone https://github.com/SEU_USUARIO/Olist-Ecommerce-Analysis.git
-- pip install -r requirements.txt
-- jupyter notebook notebooks/graficos_relatorio_olist.ipynb
 
 ---
 🛠️ Tecnologias Utilizadas
