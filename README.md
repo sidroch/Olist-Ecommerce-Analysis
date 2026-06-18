@@ -13,9 +13,9 @@ Olist-Ecommerce-Analysis/
 
 ```
 - data/                 <br> # Arquivos CSV utilizados na análise
-- notebooks/            <br> # Notebooks Jupyter
-- gráficos/             <br> # graficos_relatorio_olist.ipynb
+- notebooks/            <br> # Notebooks Jupyter com graficos_relatorio_olist.ipynb
 - README.md             <br> # Documentação principal
+
 ```
 
 
@@ -64,13 +64,11 @@ Ele contém:
 - **Conclusão executiva**
 
 ---
-
-📥 Dados Utilizados
+## 📥 Dados utilizados
 Os arquivos CSV utilizados estão na pasta:
 /data
 
 Arquivos:
-
 - logistica.csv
 - categorias.csv
 - receita_estado.csv
@@ -78,7 +76,8 @@ Arquivos:
 
 
 ---
-🛠️ Tecnologias Utilizadas
+
+## 🛠️ Tecnologias Utilizadas
 - Python 3.10
 - Pandas
 - Matplotlib
@@ -87,7 +86,8 @@ Arquivos:
 
 ---
 
-👤 Autores
+
+## 👤 Autores
 ## Grupo: 47
 - Adriane de Souza Lino – euadrianee@gmail.com  
 - Barbara Rodrigues Gusmão Rebelo – barbaragusmao906@gmail.com  
@@ -96,7 +96,8 @@ Arquivos:
 
 ---
 
-📄 Licença
+## 📄 Licença
+
 
 Este projeto é de uso acadêmico e não possui vínculo oficial com a Olist.
 
