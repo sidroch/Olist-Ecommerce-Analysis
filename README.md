@@ -47,8 +47,6 @@ O objetivo deste projeto é analisar o desempenho da operação de e‑commerce 
 4. Riscos e Oportunidades
 - Classificação dos estados entre Risco e Oportunidade.
 
-5. RJ vs Mediana — Percentual de Atrasos
-- Comparação direta entre o desempenho do RJ e a mediana nacional.
 
 ---
  
