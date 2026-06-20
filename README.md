@@ -98,7 +98,7 @@ Arquivos:
 https://drive.google.com/file/d/1qeGxJ7VFqiDcY-H0exLK4JftEenP2Az6/view
 
 ---
-## 🎥 Visual para Relatório Power BI
+## 📈 Visual para Relatório Power BI
 https://drive.google.com/file/d/1PweglDg6kUTjJknsbiZdf6D4UtqR3oQT/view?pli=1
 
 
