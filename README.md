@@ -94,7 +94,7 @@ Arquivos:
 
 ---
 
-## 👤 Link do Vídeo de Apresentação
+## 🎥 Link do Vídeo de Apresentação
 https://drive.google.com/file/d/1qeGxJ7VFqiDcY-H0exLK4JftEenP2Az6/view
 
 ---
